@@ -4,7 +4,7 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import ListaUsuarios from "./components/users/listausers/ListaUsers";
-import ListarUsuariosPorNome from "./components/ListarUsuariosPorNome";
+import ListarUsuariosPorNome from "./components/usuarios/ListarUsuariosPorNome";
 import DetalheUsuario from "./components/detalheusuario/DetalheUsuario";
 
 function App() {
