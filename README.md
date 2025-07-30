@@ -1,69 +1,101 @@
-# React + TypeScript + Vite
+# 🩺 Paciente360 - Tech Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido como parte de um desafio técnico para uma vaga de Desenvolvedor Jr.
 
-Currently, two official plugins are available:
+## 🔗 Link do Deploy
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [https://paciente360-tech-challenge.vercel.app/](https://paciente360-tech-challenge.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📸 Demonstrações
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Página Inicial
+<div align="center">
+    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20224850.png?updatedAt=1753840373680" title="Página Inicial do Projeto" width="50%"/>
+</div>
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### Listagem de Usuários com Paginação
+<div align="center">
+    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20224953.png?updatedAt=1753840373656" title="Listagem de Usuários" width="50%"/>
+</div>
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Filtro de Busca por Nome
+<div align="center">
+    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20225048.png?updatedAt=1753840373566" title="Filtro de Busca" width="50%"/>
+</div>
+
+### Detalhes do Usuário
+<div align="center">
+    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20225117.png?updatedAt=1753840373628" title="Detalhes do Usuário" width="50%"/>
+</div>
+
+---
+
+## 🚀 Tecnologias e Ferramentas
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router DOM](https://reactrouter.com/)
+- [Axios](https://axios-http.com/)
+- [Vercel](https://vercel.com/) (deploy)
+- [React Spinners](https://www.davidhu.io/react-spinners/) (loader)
+
+---
+
+## 🧠 Funcionalidades Implementadas
+
+- ✅ Listagem paginada de usuários
+- ✅ Filtro de busca por nome (com rota dinâmica)
+- ✅ Detalhamento de usuário em nova rota
+- ✅ Responsividade para mobile/tablet/desktop
+- ✅ Feedback visual com loader/spinner
+- ✅ Navegação entre rotas via Navbar
+
+---
+
+## ⚙️ Como rodar o projeto localmente
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/CrMessiProgrammer/paciente360-tech-challenge.git
+
+# 2. Acesse a pasta
+cd paciente360-tech-challenge
+
+# 3. Instale as dependências
+yarn
+
+# 4. Inicie o servidor
+yarn dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🕓 Tempo estimado investido
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Cerca de 15 a 18 horas no total, divididos em:
+
+- Organização e leitura do desafio
+- Setup inicial com Vite, Tailwind e estrutura de pastas
+- Implementação da listagem de usuários
+- Paginação e filtro por nome
+- Rota de detalhe de usuário
+- Ajustes visuais, responsividade e deploy na Vercel
+- Criação da documentação e debugging final
+
+---
+
+## 🧩 Decisões Técnicas e Dificuldades Enfrentadas
+
+- ❌ A primeira API pública que tentei usar (reqres.in) retornava erro por falta de chave ("error": "Missing API key"). Após investigar, descobri que o acesso estava restrito e precisei buscar uma alternativa.
+- ✅ Optei pela API pública JSONPlaceholder, que fornece uma lista de usuários de forma gratuita e rápida para prototipação.
+- 🔄 Para tornar os avatares mais realistas e dinâmicos, usei o serviço do pravatar.cc baseado no ID de cada usuário.
+- 💡 Dividi o código em componentes reutilizáveis e rotas bem definidas, priorizando clareza e escalabilidade.
+- 🧠 A maior dificuldade foi entender como estruturar e manipular os dados da API, especialmente na lógica de filtros e paginação, mas isso também me proporcionou um aprendizado prático muito valioso.
+
+---
+
+Desenvolvido com dedicação por **Carlos Henrique Nunes 🫡**
