@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const api = axios.create({
-  baseURL: "https://jsonplaceholder.typicode.com"
+    baseURL: import.meta.env.VITE_API_URL
 })
 
 export const listar = async (url: string, setDados: Function) => {
