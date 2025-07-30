@@ -12,22 +12,22 @@ Projeto desenvolvido como parte de um desafio técnico para uma vaga de Desenvol
 
 ### Página Inicial
 <div align="center">
-    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20224850.png?updatedAt=1753840373680" title="Página Inicial do Projeto" width="50%"/>
+    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20224850.png" title="Página Inicial do Projeto" width="50%"/>
 </div>
 
 ### Listagem de Usuários com Paginação
 <div align="center">
-    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20224953.png?updatedAt=1753840373656" title="Listagem de Usuários" width="50%"/>
+    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20224953.png" title="Listagem de Usuários" width="50%"/>
 </div>
 
 ### Filtro de Busca por Nome
 <div align="center">
-    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20225048.png?updatedAt=1753840373566" title="Filtro de Busca" width="50%"/>
+    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20225048.png" title="Filtro de Busca" width="50%"/>
 </div>
 
 ### Detalhes do Usuário
 <div align="center">
-    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20225117.png?updatedAt=1753840373628" title="Detalhes do Usuário" width="50%"/>
+    <img src="https://ik.imagekit.io/m1iwfxqae/drive-download-20250120T144504Z-001/Captura%20de%20tela%202025-07-29%20225117.png" title="Detalhes do Usuário" width="50%"/>
 </div>
 
 ---
